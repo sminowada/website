@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    margin-left: 0px;
+}
+
+.first-section {
+    width: 100%;
+    position: relative;
+}
+
+.first-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    opacity: 70%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    border-radius: 25px;
+}
+
+.overlay h1 {
+    color: brown;
+}
+.flex1 {
+    display: flex;
+}
+.flex2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.second-section .bonsai {
+    width: 50%;;
+    float: left;
+}
+.second-section .soccer {
+    width: 50%;;
+    float: right;
+}
+
+
+
