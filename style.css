@@ -88,9 +88,14 @@ body{
     padding: 0 20% 3% 20%;
 }
 
-.ig {
-    width: 10%;
+
+
+.content {
+    display: flex;
 }
+/* .ig {
+    width: 10%;
+} */
 
 
 
